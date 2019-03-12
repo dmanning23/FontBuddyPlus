@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FontBuddyPlus.SharedProject", "FontBuddyPlus.SharedProject\FontBuddyPlus.SharedProject.shproj", "{2BD505A6-E04D-4ADC-A36E-5B9FAB674483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddyPlus.WindowsDX", "FontBuddyPlus.WindowsDX\FontBuddyPlus.WindowsDX.csproj", "{21947EAD-A809-4677-9D26-B41070839479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddyPlus.iOS", "FontBuddyPlus.iOS\FontBuddyPlus.iOS.csproj", "{E71F3053-056C-4381-9638-048ED73BDFF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontBuddyPlus.Android", "FontBuddyPlus.Android\FontBuddyPlus.Android.csproj", "{6B43DA0A-68B5-405D-865F-AFB4D48A591B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A54001A-2572-4ECA-A00F-28F2CC3A6E84}"
+	ProjectSection(SolutionItems) = preProject
+		buildNugetPackages.ps1 = buildNugetPackages.ps1
+		FontBuddyPlus.nuspec = FontBuddyPlus.nuspec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		FontBuddyPlus.SharedProject\FontBuddyPlus.SharedProject.projitems*{21947ead-a809-4677-9d26-b41070839479}*SharedItemsImports = 4
+		FontBuddyPlus.SharedProject\FontBuddyPlus.SharedProject.projitems*{2bd505a6-e04d-4adc-a36e-5b9fab674483}*SharedItemsImports = 13
+		FontBuddyPlus.SharedProject\FontBuddyPlus.SharedProject.projitems*{6b43da0a-68b5-405d-865f-afb4d48a591b}*SharedItemsImports = 4
+		FontBuddyPlus.SharedProject\FontBuddyPlus.SharedProject.projitems*{e71f3053-056c-4381-9638-048ed73bdff6}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21947EAD-A809-4677-9D26-B41070839479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21947EAD-A809-4677-9D26-B41070839479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21947EAD-A809-4677-9D26-B41070839479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21947EAD-A809-4677-9D26-B41070839479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E71F3053-056C-4381-9638-048ED73BDFF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71F3053-056C-4381-9638-048ED73BDFF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71F3053-056C-4381-9638-048ED73BDFF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71F3053-056C-4381-9638-048ED73BDFF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B43DA0A-68B5-405D-865F-AFB4D48A591B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B43DA0A-68B5-405D-865F-AFB4D48A591B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B43DA0A-68B5-405D-865F-AFB4D48A591B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B43DA0A-68B5-405D-865F-AFB4D48A591B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75576B9A-4345-4938-8939-4699F9CED958}
+	EndGlobalSection
+EndGlobal
