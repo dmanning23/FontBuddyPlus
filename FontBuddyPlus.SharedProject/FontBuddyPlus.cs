@@ -6,7 +6,6 @@ using Microsoft.Xna.Framework.Graphics;
 using SpriteFontPlus;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace FontBuddyPlusLib
 {
@@ -24,6 +23,15 @@ namespace FontBuddyPlusLib
 		#endregion //Properties
 
 		#region Methods
+
+		public FontBuddyPlus()
+		{
+		}
+
+		public FontBuddyPlus(float fontSize)
+		{
+			FontSize = fontSize;
+		}
 
 		public void LoadContent(ContentManager content, string resourceName)
 		{
