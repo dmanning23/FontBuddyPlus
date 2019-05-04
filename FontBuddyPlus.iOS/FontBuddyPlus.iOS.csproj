@@ -43,8 +43,8 @@
     <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MonoGame.Framework.iOS.3.7.1.189\lib\XamariniOS\MonoGame.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="SpriteFontPlus, Version=0.6.3.15, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\SpriteFontPlus.MonoGame.0.6.3.15\lib\netstandard2.0\SpriteFontPlus.dll</HintPath>
+    <Reference Include="SpriteFontPlus, Version=0.6.5.20, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpriteFontPlus.MonoGame.0.6.5.20\lib\netstandard2.0\SpriteFontPlus.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
